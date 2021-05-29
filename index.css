@@ -1,0 +1,257 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* https://images.pexels.com/photos/7713548/pexels-photo-7713548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+
+.section1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: url("https://images.pexels.com/photos/7713548/pexels-photo-7713548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.h2 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 2em;
+  padding: 2% 12%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20%;
+  z-index: 1;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  background: none;
+}
+
+#nav {
+  background: transparent;
+}
+
+.navbar-brand1 {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 2em;
+  padding-left: 4px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  color: red;
+}
+
+.navbar-brand1:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.bkg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+h3 {
+  position: absolute;
+  z-index: 1;
+  margin: 30%;
+}
+
+/* .section2{
+     width: 100%;
+     height: 100vh;
+    
+ } */
+
+.naviteams {
+  display: flex;
+  justify-content: fle;
+}
+
+.one {
+  text-align: center;
+  margin: 1em;
+  text-decoration: underline red;
+  text-underline-position: under;
+  text-underline-offset: 20%;
+  font-weight: 600;
+}
+
+.box {
+  background-color: pink;
+  border-radius: 1em;
+  border: 2px solid white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.box p {
+  padding: 5%;
+}
+
+.fas {
+  font-size: 3em;
+}
+
+.box:hover {
+  transform: translateY(-1.3em);
+}
+
+.cimages {
+  width: 100%;
+  border: 5px groove pink;
+}
+.box2 {
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  width: 30%;
+}
+
+.musicpic {
+  height: 550px;
+}
+
+h2 {
+  text-align: center;
+  margin: 2em;
+}
+
+.fdec {
+  text-decoration: underline red;
+  text-underline-position: under;
+  text-underline-offset: 20%;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 1em;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.pic4 {
+  border: 5px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.uri {
+  border-radius: 50%;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.ur1 {
+  background-color: pink;
+  text-align: start;
+  justify-content: center;
+  padding: 2% 12%;
+  border: 30px solid white;
+  border-radius: 50px;
+}
+
+.uri2 {
+  border-radius: 50%;
+  width: 30%;
+  margin-left: 40%;
+}
+
+.fas {
+  display: inline-block;
+}
+
+.stars {
+  width: 200px;
+}
+
+.container {
+  text-align: center;
+}
+.checked {
+  color: orange;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 12%;
+}
+
+.foot {
+  color: black;
+}
+
+.social {
+  margin: 20px 15px;
+  font-size: 2em;
+  color: black;
+}
+
+/* #adj{
+    margin-left: 4em;;
+} */
+@media (max-width: 786px) {
+  .h2 {
+    position: absolute;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 1em;
+    padding: 2% 12%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20%;
+
+    margin-top: 4em;
+    margin-right: 4em;
+  }
+
+  .bg {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("https://images.unsplash.com/photo-1591270236266-374ffd90953b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+    background-position: center;
+  }
+
+  .container {
+    text-align: center;
+    font-size: 0.5em;
+  }
+}
